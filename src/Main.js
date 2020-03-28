@@ -33,7 +33,7 @@ function Main() {
         </h4>
         <p>
           A seasoned product designer with a passion for leadership,
-          system-thinking, and crafting rich experiences using both design &{" "}
+          systems thinking, and crafting rich experiences using both design &{" "}
           <a href="https://github.com/taylorpoe" target="_blank">
             code
           </a>
