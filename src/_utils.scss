@@ -1,0 +1,47 @@
+$spacing-xxs: 2px;
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 12px;
+$spacing-lg: 18px;
+$spacing-xl: 24px;
+$spacing-xxl: 32px;
+$spacing-xxxl: 44px;
+$sizing-xxs: 60px;
+$sizing-xs: 100px;
+$sizing-sm: 200px;
+$sizing-md: 300px;
+$sizing-lg: 500px;
+$sizing-xl: 640px;
+$sizing-xxl: 860px;
+$sizing-xxxl: 1300px;
+$border-radius-card: 18px;
+$border-radius-button: 10px;
+
+$tablet-large-width: 1265px;
+$tablet-width: $sizing-xxl;
+$phone-width: $sizing-xl;
+
+
+@mixin tablet-large {
+  @media (max-width: $tablet-large-width) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: $tablet-width) {
+    @content;
+  }
+}
+
+@mixin phone {
+  @media (max-width: $phone-width) {
+    @content;
+  }
+}
+
+@mixin hide-mobile {
+  @include tablet {
+    display: none;
+  }
+}
