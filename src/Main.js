@@ -1,5 +1,6 @@
 import React from 'react';
 import './Main.scss';
+import Testimonial from './components/Testimonial';
 import tayImg from './imgs/tay.jpg';
 import animatorLogoSVG from './imgs/animator-logo.svg';
 import diezSVG from './imgs/diez-logo.svg';
@@ -12,6 +13,7 @@ import emailSVG from './icons/email.svg';
 import githubSVG from './icons/github.svg';
 import mediumSVG from './icons/medium.svg';
 import twitterSVG from './icons/twitter.svg';
+import Quotes from './testimonials.js';
 
 function Main() {
   return (
@@ -84,7 +86,7 @@ function Main() {
         <div className="flex-holster">
           <div className="half">
             <div className="item">
-              <img src={haikuSVG} class="logo" alt="haiku logo" />
+              <img src={haikuSVG} className="logo" alt="haiku logo" />
               <h3>Haiku</h3>
               <p>
                 I was Co-Founder & Head of Design at Haiku (
@@ -110,7 +112,7 @@ function Main() {
                 .
               </p>
               <a
-                class="button"
+                className="button"
                 href="https://haikuforteams.com"
                 target="_blank"
               >
@@ -120,7 +122,7 @@ function Main() {
           </div>
           <div className="half">
             <div className="item">
-              <img src={animatorLogoSVG} class="logo" alt="animator logo" />
+              <img src={animatorLogoSVG} className="logo" alt="animator logo" />
               <h3>Animator</h3>
               <p>
                 Animator is an innovative stateful UI animation tool, meant for
@@ -129,7 +131,7 @@ function Main() {
                 round.
               </p>
               <a
-                class="button"
+                className="button"
                 href="https://haiku.ai/animator"
                 target="_blank"
               >
@@ -139,21 +141,21 @@ function Main() {
           </div>
           <div className="half">
             <div className="item">
-              <img src={diezSVG} class="logo" alt="diez logo" />
+              <img src={diezSVG} className="logo" alt="diez logo" />
               <h3>Diez</h3>
               <p>
                 Diez is a cross-platform design token framework with docs
                 generation. I am a co-creator of this project and contribute primarily to
                 its NUX, DX, DocsGen UI design & development, and guides & example educational content.
               </p>
-              <a class="button" href="https://diez.org" target="_blank">
+              <a className="button" href="https://diez.org" target="_blank">
                 <button>Launch diez.org</button>
               </a>
             </div>
           </div>
           <div className="half">
             <div className="item">
-              <img src={fcSVG} class="logo" alt="fc logo" />
+              <img src={fcSVG} className="logo" alt="fc logo" />
               <h3>Freedom Collaborative</h3>
               <p>
                 I co-founded and led product on a platform designed to faciliate
@@ -165,7 +167,7 @@ function Main() {
                 . I'm proud to say it's still making an impact today in 2020.
               </p>
               <a
-                class="button"
+                className="button"
                 href="https://freedomcollaborative.org"
                 target="_blank"
               >
@@ -176,10 +178,14 @@ function Main() {
         </div>
       </section>
 
+      <section>
+        {Object.values(Quotes).map((person) => <Testimonial person={person} key={person} />)}
+      </section>
+
       <footer>
         <div className="holster">
           <img src={tayImg} className="profile" alt="Image of Taylor Poe" />
-          <div class="adjacent">
+          <div className="adjacent">
             <p>
               I believe the “impossible” futures are there for the taking — a
               healthy sprinkling of resilience and gumption and any new world
@@ -201,10 +207,10 @@ function Main() {
                 href="https://angel.co/taylorpoe"
                 target="_blank"
               >
-                <img src={angelSVG} class="logo" alt="angel icon" />
+                <img src={angelSVG} className="logo" alt="angel icon" />
                 <div className="tooltip">
                   AngelList (resume)
-                  <span class="arrow" />
+                  <span className="arrow" />
                 </div>
               </a>
               <a
@@ -212,10 +218,10 @@ function Main() {
                 href="https://dribbble.com/taylorpoe"
                 target="_blank"
               >
-                <img src={dribbbleSVG} class="logo" alt="dribbble icon" />
+                <img src={dribbbleSVG} className="logo" alt="dribbble icon" />
                 <div className="tooltip">
                   Dribbble (visual design)
-                  <span class="arrow" />
+                  <span className="arrow" />
                 </div>
               </a>
               <a
@@ -223,10 +229,10 @@ function Main() {
                 href="https://github.com/taylorpoe"
                 target="_blank"
               >
-                <img src={githubSVG} class="logo" alt="github icon" />
+                <img src={githubSVG} className="logo" alt="github icon" />
                 <div className="tooltip">
                   GitHub (code)
-                  <span class="arrow" />
+                  <span className="arrow" />
                 </div>
               </a>
               <a
@@ -234,10 +240,10 @@ function Main() {
                 href="https://share.haiku.ai/u/taylor"
                 target="_blank"
               >
-                <img src={animatorSVG} class="logo" alt="animator icon" />
+                <img src={animatorSVG} className="logo" alt="animator icon" />
                 <div className="tooltip">
                   Animator (motion design)
-                  <span class="arrow" />
+                  <span className="arrow" />
                 </div>
               </a>
               <a
@@ -245,10 +251,10 @@ function Main() {
                 href="https://medium.com/@taylorpoe"
                 target="_blank"
               >
-                <img src={mediumSVG} class="logo" alt="medium icon" />
+                <img src={mediumSVG} className="logo" alt="medium icon" />
                 <div className="tooltip">
                   Medium (articles)
-                  <span class="arrow" />
+                  <span className="arrow" />
                 </div>
               </a>
               <a
@@ -256,10 +262,10 @@ function Main() {
                 href="https://twitter.com/taylorpoe"
                 target="_blank"
               >
-                <img src={twitterSVG} class="logo" alt="twitter icon" />
+                <img src={twitterSVG} className="logo" alt="twitter icon" />
                 <div className="tooltip">
                   Twitter (irreverance)
-                  <span class="arrow" />
+                  <span className="arrow" />
                 </div>
               </a>
               <a
@@ -267,10 +273,10 @@ function Main() {
                 href="mailto:taylorpoe@gmail.com"
                 target="_blank"
               >
-                <img src={emailSVG} class="logo" alt="email icon" />
+                <img src={emailSVG} className="logo" alt="email icon" />
                 <div className="tooltip">
                   Email (let's chat)
-                  <span class="arrow" />
+                  <span className="arrow" />
                 </div>
               </a>
             </div>
