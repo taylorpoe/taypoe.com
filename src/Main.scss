@@ -13,7 +13,7 @@ a {
   color: $linkColor;
   font-weight: 900;
   text-decoration-color: rgba($gray10, .54);
-  text-decoration-thickness: .9em;
+  text-decoration-thickness: 2px;
   text-underline-offset: 1.5px;
   transition: text-decoration-color 80ms ease;
   &:hover {
