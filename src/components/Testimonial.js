@@ -3,7 +3,6 @@ import '../Main.scss';
 import './Testimonial.scss';
 
 function Testimonial({person}) {
-  console.log('person from component', person)
   return (
     <div className="card">
       <span className="quotemark">“</span>
