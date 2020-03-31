@@ -92,7 +92,7 @@ function Main() {
               <img src={haikuSVG} className="logo" alt="haiku logo" />
               <h3>Haiku</h3>
               <p>
-                I was Co-Founder & Head of Design at Haiku (
+                As a Co-Founder, I acted as Head of Design at Haiku (
                 <a
                   href="https://techcrunch.com/2018/03/19/here-are-64-startups-that-launched-today-at-y-combinators-w18-demo-day/"
                   target="_blank"
