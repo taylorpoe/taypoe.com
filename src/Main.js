@@ -14,6 +14,9 @@ import githubSVG from './icons/github.svg';
 import mediumSVG from './icons/medium.svg';
 import twitterSVG from './icons/twitter.svg';
 import Quotes from './testimonials.js';
+import h from "./helpers.js";
+
+h.shuffleArray(Quotes);
 
 function Main() {
   return (
