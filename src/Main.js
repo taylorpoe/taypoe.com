@@ -117,7 +117,7 @@ function Main() {
           >
             Animator is an innovative stateful UI animation tool, meant for
             developers and designers to use together. I led its design & coded
-            most of its v1 user interface in React before our team had raised a
+            the first versions of its user interface in React before our team had raised a
             seed round.
           </Project>
           <Project
