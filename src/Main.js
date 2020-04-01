@@ -1,5 +1,5 @@
 import React from 'react';
-import './Main.scss';
+import './styles/Main.scss';
 import Testimonial from './components/Testimonial';
 import Footer from './components/Footer';
 import Project from './components/Project';

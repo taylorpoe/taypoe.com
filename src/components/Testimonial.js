@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import '../Main.scss';
+import React from 'react';
+import '../styles/Main.scss';
 import './Testimonial.scss';
 
 function Testimonial({person}) {

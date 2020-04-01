@@ -1,5 +1,5 @@
 import React from "react";
-import "../Main.scss";
+import "../styles/Main.scss";
 import "./Footer.scss";
 import tayImg from "../imgs/tay.jpg";
 import dribbbleSVG from "../icons/dribbble.svg";

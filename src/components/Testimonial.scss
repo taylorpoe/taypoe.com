@@ -1,5 +1,5 @@
-@import '../palette';
-@import '../utils';
+@import '../styles/palette';
+@import '../styles/utils';
 
 .card {
   max-width: $tablet-width;
@@ -29,9 +29,9 @@
 }
 
 .quote {
-  font-size: 30px;
+  font-size: 27px;
   font-style: italic;
-  line-height: 1.7;
+  line-height: 1.45;
   position: relative;
   z-index: 1;
 
