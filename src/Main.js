@@ -128,8 +128,7 @@ function Main() {
           >
             Diez is a cross-platform design token framework with docs
             generation. I am a co-creator of this project and contribute
-            primarily to its NUX, DX, DocsGen UI design & development, and
-            guides & example educational content.
+            primarily to its NUX, DX, guides, and DocsGen UI design & development.
           </Project>
           <Project
             title="Freedom Collaborative"
