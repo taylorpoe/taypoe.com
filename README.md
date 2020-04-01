@@ -1,4 +1,6 @@
 # TayPoe.com
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bb4731b0-00b1-4836-b819-61691dea10e0/deploy-status)](https://app.netlify.com/sites/taypoe/deploys)
+
 Personal website for product designer Taylor Poe. [taypoe.com](https://taypoe.com).
 
 ## Available Scripts
