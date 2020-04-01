@@ -95,7 +95,7 @@ function Main() {
               YC W18
             </a>
             ) from 2016-2020. As a small team we created a staggering amount of
-            imaginative & well-received products, including:{" "}
+            imaginative & well-received products, including{" "}
             <a href="https://haiku.ai/animator" target="_blank">
               Haiku Animator
             </a>
