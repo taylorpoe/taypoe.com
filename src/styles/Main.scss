@@ -147,6 +147,11 @@ button {
         height: 116px;
         transform: translateX(8px);
       }
+
+      &.treaty-logo {
+        margin-top: 16px;
+        transform: translateY(4px);
+      }
     }
 
     button {

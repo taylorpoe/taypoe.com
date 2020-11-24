@@ -30,6 +30,7 @@ function Main() {
         <h2 className="center">Prior Art</h2>
         <div className="flex-holster">
           <Project
+            name="arc"
             logo={arcLogoSVG}
             link="https://www.MyArc.com"
             buttonText="MyArc.com"
@@ -37,6 +38,7 @@ function Main() {
             <strong>Arc</strong> is like Notion meets Google Calender but for your weekly to-do list. It's a personal project I've slowly designed and coded in my free time. I've put a lot of thought into crafting what I think is a satsifying user experience. Please check it out. 
           </Project>
           <Project
+            name="treaty"
             logo={treatyLogoSVG}
             link="https://treatyacoustics.com"
             buttonText="TreatyAcoustics.com"
@@ -44,6 +46,7 @@ function Main() {
             <strong>Treaty Home Duo</strong> sound dampening panels were designed to help employees transition into their new work-from-home reality. I spent a few weeks designing and prototyping these panels in order to see if there would be product-market fit.
           </Project>
           <Project
+            name="haiku"
             logo={haikuSVG}
             link="https://haikuforteams.com"
             buttonText="HaikuForTeams.com"
@@ -71,6 +74,7 @@ function Main() {
             .
           </Project>
           <Project
+            name="animator"
             logo={animatorLogoSVG}
             link="https://haikuanimator.com"
             buttonText="HaikuAnimator.com"
@@ -81,6 +85,7 @@ function Main() {
             seed round.
           </Project>
           <Project
+            name="diez"
             logo={diezSVG}
             link="https://diez.org"
             buttonText="Diez.org"
@@ -90,6 +95,7 @@ function Main() {
             primarily to its NUX, DX, guides, and DocsGen UI design & development.
           </Project>
           <Project
+            name="freedomcollaborative"
             logo={fcSVG}
             link="https://freedomcollaborative.org"
             buttonText="FreedomCollaborative.org"
