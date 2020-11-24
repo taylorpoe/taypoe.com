@@ -3,6 +3,8 @@ import './styles/Main.scss';
 import Testimonial from './components/Testimonial';
 import Footer from './components/Footer';
 import Project from './components/Project';
+import arcLogoSVG from './imgs/arc-logo.svg';
+import treatyLogoSVG from './imgs/treaty-logo.svg';
 import animatorLogoSVG from './imgs/animator-logo.svg';
 import diezSVG from './imgs/diez-logo.svg';
 import fcSVG from './imgs/FC-logo.svg';
@@ -19,8 +21,7 @@ function Main() {
         <div className="hero">
           <h1>Hi 👋</h1>
           <h4>
-            I'm <strong>Taylor Poe</strong> — a seasoned product designer with a passion for leadership, systems
-            thinking, and crafting rich experiences using both design & code.
+            I'm <strong>Taylor Poe</strong> — a seasoned product designer with a passion for crafting rich experiences using both design & code.
           </h4>
         </div>
       </section>
@@ -29,9 +30,23 @@ function Main() {
         <h2 className="center">Prior Art</h2>
         <div className="flex-holster">
           <Project
+            logo={arcLogoSVG}
+            link="https://www.MyArc.com"
+            buttonText="MyArc.com"
+          >
+            <strong>Arc</strong> is like Notion meets Google Calender but for your weekly to-do list. It's a personal project I've slowly designed and coded in my free time. I've put a lot of thought into crafting what I think is a satsifying user experience. Please check it out. 
+          </Project>
+          <Project
+            logo={treatyLogoSVG}
+            link="https://treatyacoustics.com"
+            buttonText="TreatyAcoustics.com"
+          >
+            <strong>Treaty Home Duo</strong> sound dampening panels were designed to help employees transition into their new work-from-home reality. I spent a few weeks designing and prototyping these panels in order to see if there would be product-market fit.
+          </Project>
+          <Project
             logo={haikuSVG}
             link="https://haikuforteams.com"
-            buttonText="haikuforteams.com"
+            buttonText="HaikuForTeams.com"
           >
             I co-founded and led design at <strong>Haiku</strong> (
             <a
@@ -42,7 +57,7 @@ function Main() {
             </a>
             ) from 2016-2020. As a small team we created several
             imaginative & well-received products, including{" "}
-            <a href="https://haiku.ai/animator" target="_blank">
+            <a href="https://haikuanimator.com" target="_blank">
               Haiku Animator
             </a>
             ,{" "}
@@ -57,8 +72,8 @@ function Main() {
           </Project>
           <Project
             logo={animatorLogoSVG}
-            link="https://haiku.ai/animator"
-            buttonText="Animator website"
+            link="https://haikuanimator.com"
+            buttonText="HaikuAnimator.com"
           >
             <strong>Animator</strong> is an innovative stateful UI animation tool, meant for
             developers and designers to use together. I led its design & coded
@@ -68,7 +83,7 @@ function Main() {
           <Project
             logo={diezSVG}
             link="https://diez.org"
-            buttonText="diez.org"
+            buttonText="Diez.org"
           >
             <strong>Diez</strong> is a cross-platform design token framework with docs
             generation. I am a co-creator of this project and contribute
@@ -77,7 +92,7 @@ function Main() {
           <Project
             logo={fcSVG}
             link="https://freedomcollaborative.org"
-            buttonText="freedomcollaborative.org"
+            buttonText="FreedomCollaborative.org"
           >
             I co-founded and led product on <strong>Freedom Collaborative</strong> — a platform designed to faciliate
             collaboration between anti-human-trafficking NGOs from 2010-2014

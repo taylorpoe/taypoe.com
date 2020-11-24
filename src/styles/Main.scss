@@ -142,6 +142,11 @@ button {
       height: 100px;
       transition: opacity 100ms ease;
       margin-bottom: $spacing-xl;
+
+      &.arc-logo {
+        height: 116px;
+        transform: translateX(8px);
+      }
     }
 
     button {
