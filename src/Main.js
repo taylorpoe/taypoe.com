@@ -35,7 +35,7 @@ function Main() {
             link="https://www.MyArc.com"
             buttonText="MyArc.com"
           >
-            <strong>Arc</strong> is like Notion meets Google Calender but for your weekly to-do list. It's a personal project I've slowly designed and coded in my free time. I've put a lot of thought into crafting what I think is a satsifying user experience. Please check it out. 
+            <strong>Arc</strong> is like Notion meets Google Calender but for your weekly to-do list. It's a personal project I've slowly designed and coded in my free time. I've put a lot of thought into crafting what I think is a satsifying user experience. 
           </Project>
           <Project
             name="treaty"
@@ -43,7 +43,7 @@ function Main() {
             link="https://treatyacoustics.com"
             buttonText="TreatyAcoustics.com"
           >
-            <strong>Treaty Home Duo</strong> sound dampening panels were designed to help employees transition into their new work-from-home reality. I spent a few weeks designing and prototyping these panels in order to see if there would be product-market fit.
+            <strong>Treaty Home Duo</strong> sound dampening panels were designed to help employees transition into their new work-from-home reality. I speculatively designed, prototyped, and advertised these panels to gauge product-market fit.
           </Project>
           <Project
             name="haiku"
