@@ -114,6 +114,10 @@ button {
       opacity: .5;
     }
   }
+
+  @include tablet {
+    width:  calc(100% + 56px);
+  }
 }
 
 .hero {
