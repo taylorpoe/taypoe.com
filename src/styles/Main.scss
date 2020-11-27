@@ -80,8 +80,10 @@ button {
 .page {
   background-color: $backgroundColor;
   min-height: 100vh;
+
   @include tablet {
     padding: 0 28px;
+    overflow: hidden;
   }
 }
 
@@ -117,6 +119,7 @@ button {
 
   @include tablet {
     width:  calc(100% + 56px);
+    margin-left: -28px;
   }
 }
 
