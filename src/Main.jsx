@@ -41,8 +41,8 @@ function Main() {
           <Project
             name="arc"
             logo={arcLogoSVG}
-            link="https://www.MyArc.com"
-            buttonText="MyArc.com"
+            link="https://www.MyArc.app"
+            buttonText="MyArc.app"
           >
             <strong>Arc</strong> is like Notion meets Google Calender but for your weekly to-do list. It's a personal project I've slowly designed and coded in my free time. I've put a lot of thought into crafting what I think is a satsifying user experience. 
           </Project>
