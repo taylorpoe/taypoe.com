@@ -134,6 +134,10 @@ button {
   max-width: $tablet-width;
   margin: 140px auto 160px;
 
+  @include tablet {
+    padding: 0 28px;
+  }
+
   h1 {
     margin-bottom: 0;
     opacity: 0;
