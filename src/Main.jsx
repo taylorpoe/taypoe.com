@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import './styles/Main.scss';
 import Testimonial from './components/Testimonial';
 import Footer from './components/Footer';
@@ -15,15 +15,24 @@ import h from "./helpers.js";
 h.shuffleArray(Quotes);
 
 function Main() {
+  const [pageLoaded, setpageLoaded] = useState(false);
+
+  useEffect(() => {
+    setpageLoaded(true);
+  }, [])
+
   return (
     <div className="page">
-      <section>
+      <section id="hero-section">
         <div className="hero">
-          <h1>Hi 👋</h1>
-          <h4>
-            I'm <strong>Taylor Poe</strong> — a seasoned product designer with a passion for crafting rich experiences using both design & code.
+          <h1 className={`${pageLoaded ? 'loaded' : ''}`}>Hi
+            <span className={`wave ${pageLoaded ? 'loaded' : ''}`} role="img">👋</span>
+          </h1>
+          <h4 className={`${pageLoaded ? 'loaded' : ''}`}>
+            I'm <strong>Taylor Poe</strong> — a seasoned product designer with a passion for crafting rich experiences using design & code.
           </h4>
         </div>
+        <div className={`howdy-bloop ${pageLoaded ? 'loaded' : ''}`} />
       </section>
 
       <section id="work">
