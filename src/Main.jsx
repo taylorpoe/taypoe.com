@@ -12,7 +12,7 @@ import haikuSVG from './imgs/haiku-logo.svg';
 import Quotes from './testimonials.js';
 import h from "./helpers.js";
 
-h.shuffleArray(Quotes);
+// h.shuffleArray(Quotes);
 
 function Main() {
   const [pageLoaded, setpageLoaded] = useState(false);
