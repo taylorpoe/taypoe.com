@@ -249,3 +249,14 @@ button {
 #work {
   margin-top: $sizing-xs;
 }
+
+.howdy-body {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: transform 800ms ease-out 1200ms, opacity 800ms linear 1200ms;
+
+  &.loaded {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
