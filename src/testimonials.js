@@ -20,7 +20,7 @@ const quotes = [
     name: "Matthew Trost",
     quote:
       "Taylor brings that rare combination of talents that are essential to have on a product team: design intuition, technical know-how, and empathy for the user. From planning to prototyping to launch, he was instrumental in bringing our product to market.",
-    title: "Senior Engineer, Plato Design",
+    title: "Co-founder, Engineer, Aesthetic",
     link: "https://www.linkedin.com/in/matthew-trost-8081a342/"
   },
   {
