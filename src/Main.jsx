@@ -27,7 +27,7 @@ function Main() {
           </h1>
           <h4 className={`${pageLoaded ? 'loaded' : ''}`}>
             I'm <strong>Taylor Poe</strong> — a seasoned product designer with a passion for crafting rich experiences using design & code.
-            <br/><span className="subb">Currently leading design @ <a href="https://doahuddle.com">www.doahuddle.com</a>.</span>
+            <br/><span className="subb">Currently leading design @ <a href="https://doahuddle.com" target="_blank" rel="noopener noreferrer">doahuddle.com</a>.</span>
           </h4>
         </div>
         <div className={`howdy-bloop ${pageLoaded ? 'loaded' : ''}`} />
@@ -62,21 +62,21 @@ function Main() {
               I co-founded and led design at <strong>Haiku</strong> (
               <a
                 href="https://techcrunch.com/2018/03/19/here-are-64-startups-that-launched-today-at-y-combinators-w18-demo-day/"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
               >
                 YC W18
               </a>
               ) from 2016-2020. As a small team we created several
               imaginative & well-received products, including{" "}
-              <a href="https://haikuanimator.com" target="_blank">
+              <a href="https://haikuanimator.com" target="_blank" rel="noopener noreferrer">
                 Haiku Animator
               </a>
               ,{" "}
-              <a href="https://diez.org" target="_blank">
+              <a href="https://diez.org" target="_blank" rel="noopener noreferrer">
                 Diez
               </a>
               , and{" "}
-              <a href="https://storybookforteams.com" target="_blank">
+              <a href="https://storybookforteams.com" target="_blank" rel="noopener noreferrer">
                 Storybook for Teams
               </a>
               .
@@ -111,7 +111,7 @@ function Main() {
               I co-founded and led product on <strong>Freedom Collaborative</strong> — a platform designed to faciliate
               collaboration between anti-human-trafficking NGOs from 2010-2014
               with{" "}
-              <a href="https://chabdai.org" target="_blank">
+              <a href="https://chabdai.org" target="_blank" rel="noopener noreferrer">
                 Chab Dai Int'l
               </a>
               . I'm proud to say it's still making an impact today in 2020.

@@ -9,7 +9,7 @@ function Project ({name, link, buttonText, logo, children}) {
           className={`logo ${name}-logo`}
           alt="project logo" />
         <p>{children}</p>
-        <a className="button" href={link} target="_blank">
+        <a className="button" href={link} target="_blank" rel="noopener noreferrer">
           <button>{buttonText}</button>
         </a>
       </div>
