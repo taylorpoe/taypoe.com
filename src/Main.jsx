@@ -27,6 +27,7 @@ function Main() {
           </h1>
           <h4 className={`${pageLoaded ? 'loaded' : ''}`}>
             I'm <strong>Taylor Poe</strong> — a seasoned product designer with a passion for crafting rich experiences using design & code.
+            <br/><span className="subb">Currently leading design @ <a href="https://doahuddle.com">www.doahuddle.com</a>.</span>
           </h4>
         </div>
         <div className={`howdy-bloop ${pageLoaded ? 'loaded' : ''}`} />
