@@ -27,7 +27,7 @@ function Main() {
           </h1>
           <h4 className={`${pageLoaded ? 'loaded' : ''}`}>
             <div>I'm <strong>TayPoe</strong> — a PM with a background in design and code.</div>
-            <div className="subb">Currently @ <a href="https://www.trycompa.com" target="_blank" rel="noopener noreferrer">trycompa.com</a>.</div>
+            <div className="subb">Currently revolutionizing market data @ <a href="https://www.trycompa.com" target="_blank" rel="noopener noreferrer">trycompa.com</a>.</div>
           </h4>
         </div>
         <div className={`howdy-bloop ${pageLoaded ? 'loaded' : ''}`} />
