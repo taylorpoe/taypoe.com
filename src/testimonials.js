@@ -12,7 +12,7 @@ const quotes = [
     name: "Zack Brown",
     quote:
       "Taylor is a bona fide unicorn: a top-tier product designer and a talented UI developer. He has impressed me with his problem-solving mindset, his level head, and his ability to leave ego at the door when collaborating over complex and nuanced problems.",
-    title: "Co-Founder & CEO, Haiku",
+    title: "Co-Founder, Pax Lang",
     link: "https://twitter.com/zackaboo"
   },
   {

@@ -4,21 +4,19 @@ import "./Footer.scss";
 import tayImg from "../imgs/tay.jpg";
 import dribbbleSVG from "../icons/dribbble.svg";
 import angelSVG from "../icons/angel.svg";
-import animatorSVG from "../icons/animator.svg";
 import emailSVG from "../icons/email.svg";
 import githubSVG from "../icons/github.svg";
-import mediumSVG from "../icons/medium.svg";
 import twitterSVG from "../icons/twitter.svg";
 
 function Footer() {
   return (
     <footer>
       <div className="holster">
-        <img src={tayImg} className="profile" alt="Image of Taylor Poe" />
+        <img src={tayImg} className="profile" alt="Taylor Poe" />
         <div className="adjacent">
           <p>
-            I believe the “impossible” futures are there for the taking — a
-            healthy sprinkling of resilience and gumption and any new world can be
+            I believe the impossible futures are there for the taking — a
+            healthy sprinkling of gumption and any new world can be
             created. But I also believe you’re only likely to get there with
             intentional effort to make everyone around you better.
           </p>
@@ -43,7 +41,7 @@ function Footer() {
             >
               <img src={angelSVG} className="logo" alt="angel icon" />
               <div className="tooltip">
-                AngelList (resume)
+                Wellfound (resume)
                 <span className="arrow" />
               </div>
             </a>
@@ -68,30 +66,6 @@ function Footer() {
               <img src={githubSVG} className="logo" alt="github icon" />
               <div className="tooltip">
                 GitHub (code)
-                <span className="arrow" />
-              </div>
-            </a>
-            <a
-              className="social-link"
-              href="https://share.haiku.ai/u/taylor"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={animatorSVG} className="logo" alt="animator icon" />
-              <div className="tooltip">
-                Animator (motion design)
-                <span className="arrow" />
-              </div>
-            </a>
-            <a
-              className="social-link"
-              href="https://medium.com/@taylorpoe"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={mediumSVG} className="logo" alt="medium icon" />
-              <div className="tooltip">
-                Medium (articles)
                 <span className="arrow" />
               </div>
             </a>
