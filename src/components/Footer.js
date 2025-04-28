@@ -3,7 +3,7 @@ import "../styles/Main.scss";
 import "./Footer.scss";
 import tayImg from "../imgs/tay.jpg";
 import dribbbleSVG from "../icons/dribbble.svg";
-import angelSVG from "../icons/angel.svg";
+import linkedinSVG from "../icons/linkedin.svg";
 import emailSVG from "../icons/email.svg";
 import githubSVG from "../icons/github.svg";
 import twitterSVG from "../icons/twitter.svg";
@@ -16,32 +16,31 @@ function Footer() {
         <div className="adjacent">
           <p>
             I believe the impossible futures are there for the taking — a
-            healthy sprinkling of gumption and any new world can be
-            created. But I also believe you’re only likely to get there with
-            intentional effort to make everyone around you better.
+            healthy sprinkling of gumption and any new world can be created.
           </p>
           <p>
-            I get great satisfaction and meaning from drawing out others' best
-            thinking. If you’re building something and could use some startup or
-            design advice — please{" "}
+            I get great satisfaction from drawing out others' best thinking. If
+            you're building something and could use startup or design advice —
+            please{" "}
             <a
               href="mailto:taylorpoe@gmail.com"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+            >
               drop me a line
             </a>{" "}
-            to set up a video call.
+            to set up a call.
           </p>
           <div className="socialStrip">
             <a
               className="social-link"
-              href="https://angel.co/taylorpoe"
+              href="https://www.linkedin.com/in/taypoe/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={angelSVG} className="logo" alt="angel icon" />
+              <img src={linkedinSVG} className="logo" alt="linkedin icon" />
               <div className="tooltip">
-                Wellfound (resume)
+                LinkedIn (professional)
                 <span className="arrow" />
               </div>
             </a>
@@ -97,7 +96,7 @@ function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }
 
 export default Footer;
